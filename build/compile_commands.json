@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/iodza/Documents/LLM/420-5G4-ML/build",
+  "command": "/etc/profiles/per-user/iodza/bin/g++ -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/bibliotheque.dir/book.cpp.o -c /home/iodza/Documents/LLM/420-5G4-ML/agent/book.cpp",
+  "file": "/home/iodza/Documents/LLM/420-5G4-ML/agent/book.cpp",
+  "output": "/home/iodza/Documents/LLM/420-5G4-ML/build/CMakeFiles/bibliotheque.dir/book.cpp.o"
+},
+{
+  "directory": "/home/iodza/Documents/LLM/420-5G4-ML/build",
+  "command": "/etc/profiles/per-user/iodza/bin/g++ -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/bibliotheque.dir/filemanager.cpp.o -c /home/iodza/Documents/LLM/420-5G4-ML/agent/filemanager.cpp",
+  "file": "/home/iodza/Documents/LLM/420-5G4-ML/agent/filemanager.cpp",
+  "output": "/home/iodza/Documents/LLM/420-5G4-ML/build/CMakeFiles/bibliotheque.dir/filemanager.cpp.o"
+},
+{
+  "directory": "/home/iodza/Documents/LLM/420-5G4-ML/build",
+  "command": "/etc/profiles/per-user/iodza/bin/g++ -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/bibliotheque.dir/library.cpp.o -c /home/iodza/Documents/LLM/420-5G4-ML/agent/library.cpp",
+  "file": "/home/iodza/Documents/LLM/420-5G4-ML/agent/library.cpp",
+  "output": "/home/iodza/Documents/LLM/420-5G4-ML/build/CMakeFiles/bibliotheque.dir/library.cpp.o"
+},
+{
+  "directory": "/home/iodza/Documents/LLM/420-5G4-ML/build",
+  "command": "/etc/profiles/per-user/iodza/bin/g++ -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/bibliotheque.dir/main.cpp.o -c /home/iodza/Documents/LLM/420-5G4-ML/agent/main.cpp",
+  "file": "/home/iodza/Documents/LLM/420-5G4-ML/agent/main.cpp",
+  "output": "/home/iodza/Documents/LLM/420-5G4-ML/build/CMakeFiles/bibliotheque.dir/main.cpp.o"
+},
+{
+  "directory": "/home/iodza/Documents/LLM/420-5G4-ML/build",
+  "command": "/etc/profiles/per-user/iodza/bin/g++ -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/bibliotheque.dir/user.cpp.o -c /home/iodza/Documents/LLM/420-5G4-ML/agent/user.cpp",
+  "file": "/home/iodza/Documents/LLM/420-5G4-ML/agent/user.cpp",
+  "output": "/home/iodza/Documents/LLM/420-5G4-ML/build/CMakeFiles/bibliotheque.dir/user.cpp.o"
+}
+]
