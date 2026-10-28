@@ -1,0 +1,2160 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/iodza/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/iodza/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/iodza/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/iodza/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/"
+    searched_directories:
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/uname"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/uname"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/uname"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/uname"
+    found: "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin"
+        - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin"
+        - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin"
+        - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin"
+        - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin"
+        - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin"
+        - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin"
+        - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin"
+        - "/run/wrappers/bin"
+        - "/home/iodza/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/iodza/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/iodza/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/iodza/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin"
+        - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin"
+        - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.18.55 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/iodza/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/iodza/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/iodza/.local/state/nix/profile/bin/"
+      - "/etc/profiles/per-user/iodza/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/"
+    searched_directories:
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/ninja-build"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/ninja"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/samu"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/ninja-build"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/ninja"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/samu"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/ninja-build"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/ninja"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/samu"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/ninja-build"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/ninja"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/samu"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/ninja-build"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/ninja"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/samu"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/ninja-build"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/ninja"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/samu"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/ninja-build"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/ninja"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/samu"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/ninja-build"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/ninja"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/samu"
+      - "/run/wrappers/bin/ninja-build"
+      - "/run/wrappers/bin/ninja"
+      - "/run/wrappers/bin/samu"
+      - "/home/iodza/.local/share/flatpak/exports/bin/ninja-build"
+      - "/home/iodza/.local/share/flatpak/exports/bin/ninja"
+      - "/home/iodza/.local/share/flatpak/exports/bin/samu"
+      - "/var/lib/flatpak/exports/bin/ninja-build"
+      - "/var/lib/flatpak/exports/bin/ninja"
+      - "/var/lib/flatpak/exports/bin/samu"
+      - "/home/iodza/.nix-profile/bin/ninja-build"
+      - "/home/iodza/.nix-profile/bin/ninja"
+      - "/home/iodza/.nix-profile/bin/samu"
+      - "/nix/profile/bin/ninja-build"
+      - "/nix/profile/bin/ninja"
+      - "/nix/profile/bin/samu"
+      - "/home/iodza/.local/state/nix/profile/bin/ninja-build"
+      - "/home/iodza/.local/state/nix/profile/bin/ninja"
+      - "/home/iodza/.local/state/nix/profile/bin/samu"
+      - "/etc/profiles/per-user/iodza/bin/ninja-build"
+    found: "/etc/profiles/per-user/iodza/bin/ninja"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin"
+        - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin"
+        - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin"
+        - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin"
+        - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin"
+        - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin"
+        - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin"
+        - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin"
+        - "/run/wrappers/bin"
+        - "/home/iodza/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/iodza/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/iodza/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/iodza/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin"
+        - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin"
+        - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/"
+    found: "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin"
+        - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin"
+        - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin"
+        - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin"
+        - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin"
+        - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin"
+        - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin"
+        - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin"
+        - "/run/wrappers/bin"
+        - "/home/iodza/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/iodza/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/iodza/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/iodza/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin"
+        - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin"
+        - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /etc/profiles/per-user/iodza/bin/gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/iodza/Documents/LLM/420-5G4-ML/build/CMakeFiles/4.4.3/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/etc/profiles/per-user/iodza/bin/"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/iodza/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/iodza/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/iodza/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/"
+    found: "/etc/profiles/per-user/iodza/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin"
+        - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin"
+        - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin"
+        - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin"
+        - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin"
+        - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin"
+        - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin"
+        - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin"
+        - "/run/wrappers/bin"
+        - "/home/iodza/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/iodza/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/iodza/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/iodza/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin"
+        - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin"
+        - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/etc/profiles/per-user/iodza/bin/"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/iodza/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/iodza/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/iodza/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/"
+    found: "/etc/profiles/per-user/iodza/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin"
+        - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin"
+        - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin"
+        - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin"
+        - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin"
+        - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin"
+        - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin"
+        - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin"
+        - "/run/wrappers/bin"
+        - "/home/iodza/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/iodza/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/iodza/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/iodza/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin"
+        - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin"
+        - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/etc/profiles/per-user/iodza/bin/"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/iodza/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/iodza/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/iodza/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/"
+    found: "/etc/profiles/per-user/iodza/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin"
+        - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin"
+        - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin"
+        - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin"
+        - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin"
+        - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin"
+        - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin"
+        - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin"
+        - "/run/wrappers/bin"
+        - "/home/iodza/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/iodza/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/iodza/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/iodza/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin"
+        - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin"
+        - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/etc/profiles/per-user/iodza/bin/"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/iodza/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/iodza/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/iodza/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/"
+    found: "/etc/profiles/per-user/iodza/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin"
+        - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin"
+        - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin"
+        - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin"
+        - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin"
+        - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin"
+        - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin"
+        - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin"
+        - "/run/wrappers/bin"
+        - "/home/iodza/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/iodza/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/iodza/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/iodza/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin"
+        - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin"
+        - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/etc/profiles/per-user/iodza/bin/"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/iodza/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/iodza/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/iodza/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/"
+    found: "/etc/profiles/per-user/iodza/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin"
+        - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin"
+        - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin"
+        - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin"
+        - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin"
+        - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin"
+        - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin"
+        - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin"
+        - "/run/wrappers/bin"
+        - "/home/iodza/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/iodza/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/iodza/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/iodza/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin"
+        - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin"
+        - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/etc/profiles/per-user/iodza/bin/"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/iodza/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/iodza/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/iodza/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/"
+    found: "/etc/profiles/per-user/iodza/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin"
+        - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin"
+        - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin"
+        - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin"
+        - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin"
+        - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin"
+        - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin"
+        - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin"
+        - "/run/wrappers/bin"
+        - "/home/iodza/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/iodza/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/iodza/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/iodza/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin"
+        - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin"
+        - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/etc/profiles/per-user/iodza/bin/"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/iodza/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/iodza/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/iodza/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/"
+    found: "/etc/profiles/per-user/iodza/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin"
+        - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin"
+        - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin"
+        - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin"
+        - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin"
+        - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin"
+        - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin"
+        - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin"
+        - "/run/wrappers/bin"
+        - "/home/iodza/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/iodza/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/iodza/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/iodza/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin"
+        - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin"
+        - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/etc/profiles/per-user/iodza/bin/"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/iodza/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/iodza/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/iodza/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/"
+    found: "/etc/profiles/per-user/iodza/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin"
+        - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin"
+        - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin"
+        - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin"
+        - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin"
+        - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin"
+        - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin"
+        - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin"
+        - "/run/wrappers/bin"
+        - "/home/iodza/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/iodza/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/iodza/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/iodza/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin"
+        - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin"
+        - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/etc/profiles/per-user/iodza/bin/"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/iodza/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/iodza/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/iodza/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/"
+    searched_directories:
+      - "/etc/profiles/per-user/iodza/bin/dlltool"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/dlltool"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/dlltool"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/dlltool"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/dlltool"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/dlltool"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/dlltool"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/dlltool"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/dlltool"
+      - "/run/wrappers/bin/dlltool"
+      - "/home/iodza/.local/share/flatpak/exports/bin/dlltool"
+      - "/var/lib/flatpak/exports/bin/dlltool"
+      - "/home/iodza/.nix-profile/bin/dlltool"
+      - "/nix/profile/bin/dlltool"
+      - "/home/iodza/.local/state/nix/profile/bin/dlltool"
+      - "/nix/var/nix/profiles/default/bin/dlltool"
+      - "/run/current-system/sw/bin/dlltool"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/dlltool"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/dlltool"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/dlltool"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin"
+        - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin"
+        - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin"
+        - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin"
+        - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin"
+        - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin"
+        - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin"
+        - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin"
+        - "/run/wrappers/bin"
+        - "/home/iodza/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/iodza/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/iodza/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/iodza/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin"
+        - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin"
+        - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/etc/profiles/per-user/iodza/bin/"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/iodza/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/iodza/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/iodza/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/"
+    found: "/etc/profiles/per-user/iodza/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin"
+        - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin"
+        - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin"
+        - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin"
+        - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin"
+        - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin"
+        - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin"
+        - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin"
+        - "/run/wrappers/bin"
+        - "/home/iodza/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/iodza/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/iodza/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/iodza/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin"
+        - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin"
+        - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/etc/profiles/per-user/iodza/bin/"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/iodza/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/iodza/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/iodza/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/"
+    searched_directories:
+      - "/etc/profiles/per-user/iodza/bin/tapi"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/tapi"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/tapi"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/tapi"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/tapi"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/tapi"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/tapi"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/tapi"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/tapi"
+      - "/run/wrappers/bin/tapi"
+      - "/home/iodza/.local/share/flatpak/exports/bin/tapi"
+      - "/var/lib/flatpak/exports/bin/tapi"
+      - "/home/iodza/.nix-profile/bin/tapi"
+      - "/nix/profile/bin/tapi"
+      - "/home/iodza/.local/state/nix/profile/bin/tapi"
+      - "/nix/var/nix/profiles/default/bin/tapi"
+      - "/run/current-system/sw/bin/tapi"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/tapi"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/tapi"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/tapi"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin"
+        - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin"
+        - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin"
+        - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin"
+        - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin"
+        - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin"
+        - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin"
+        - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin"
+        - "/run/wrappers/bin"
+        - "/home/iodza/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/iodza/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/iodza/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/iodza/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin"
+        - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin"
+        - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-16.2"
+      - "gcc-ar-16"
+      - "gcc-ar16"
+      - "gcc-ar"
+    candidate_directories:
+      - "/etc/profiles/per-user/iodza/bin/"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/iodza/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/iodza/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/iodza/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/"
+    searched_directories:
+      - "/etc/profiles/per-user/iodza/bin/gcc-ar-16.2"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/gcc-ar-16.2"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/gcc-ar-16.2"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/gcc-ar-16.2"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/gcc-ar-16.2"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/gcc-ar-16.2"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/gcc-ar-16.2"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/gcc-ar-16.2"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/gcc-ar-16.2"
+      - "/run/wrappers/bin/gcc-ar-16.2"
+      - "/home/iodza/.local/share/flatpak/exports/bin/gcc-ar-16.2"
+      - "/var/lib/flatpak/exports/bin/gcc-ar-16.2"
+      - "/home/iodza/.nix-profile/bin/gcc-ar-16.2"
+      - "/nix/profile/bin/gcc-ar-16.2"
+      - "/home/iodza/.local/state/nix/profile/bin/gcc-ar-16.2"
+      - "/nix/var/nix/profiles/default/bin/gcc-ar-16.2"
+      - "/run/current-system/sw/bin/gcc-ar-16.2"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/gcc-ar-16.2"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/gcc-ar-16.2"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/gcc-ar-16.2"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/gcc-ar-16.2"
+      - "/etc/profiles/per-user/iodza/bin/gcc-ar-16"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/gcc-ar-16"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/gcc-ar-16"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/gcc-ar-16"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/gcc-ar-16"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/gcc-ar-16"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/gcc-ar-16"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/gcc-ar-16"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/gcc-ar-16"
+      - "/run/wrappers/bin/gcc-ar-16"
+      - "/home/iodza/.local/share/flatpak/exports/bin/gcc-ar-16"
+      - "/var/lib/flatpak/exports/bin/gcc-ar-16"
+      - "/home/iodza/.nix-profile/bin/gcc-ar-16"
+      - "/nix/profile/bin/gcc-ar-16"
+      - "/home/iodza/.local/state/nix/profile/bin/gcc-ar-16"
+      - "/nix/var/nix/profiles/default/bin/gcc-ar-16"
+      - "/run/current-system/sw/bin/gcc-ar-16"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/gcc-ar-16"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/gcc-ar-16"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/gcc-ar-16"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/gcc-ar-16"
+      - "/etc/profiles/per-user/iodza/bin/gcc-ar16"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/gcc-ar16"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/gcc-ar16"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/gcc-ar16"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/gcc-ar16"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/gcc-ar16"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/gcc-ar16"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/gcc-ar16"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/gcc-ar16"
+      - "/run/wrappers/bin/gcc-ar16"
+      - "/home/iodza/.local/share/flatpak/exports/bin/gcc-ar16"
+      - "/var/lib/flatpak/exports/bin/gcc-ar16"
+      - "/home/iodza/.nix-profile/bin/gcc-ar16"
+      - "/nix/profile/bin/gcc-ar16"
+      - "/home/iodza/.local/state/nix/profile/bin/gcc-ar16"
+      - "/nix/var/nix/profiles/default/bin/gcc-ar16"
+      - "/run/current-system/sw/bin/gcc-ar16"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/gcc-ar16"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/gcc-ar16"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/gcc-ar16"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/gcc-ar16"
+      - "/etc/profiles/per-user/iodza/bin/gcc-ar"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/gcc-ar"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/gcc-ar"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/gcc-ar"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/gcc-ar"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/gcc-ar"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/gcc-ar"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/gcc-ar"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/gcc-ar"
+      - "/run/wrappers/bin/gcc-ar"
+      - "/home/iodza/.local/share/flatpak/exports/bin/gcc-ar"
+      - "/var/lib/flatpak/exports/bin/gcc-ar"
+      - "/home/iodza/.nix-profile/bin/gcc-ar"
+      - "/nix/profile/bin/gcc-ar"
+      - "/home/iodza/.local/state/nix/profile/bin/gcc-ar"
+      - "/nix/var/nix/profiles/default/bin/gcc-ar"
+      - "/run/current-system/sw/bin/gcc-ar"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/gcc-ar"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/gcc-ar"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/gcc-ar"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/gcc-ar"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin"
+        - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin"
+        - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin"
+        - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin"
+        - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin"
+        - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin"
+        - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin"
+        - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin"
+        - "/run/wrappers/bin"
+        - "/home/iodza/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/iodza/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/iodza/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/iodza/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin"
+        - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin"
+        - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-16.2"
+      - "gcc-ranlib-16"
+      - "gcc-ranlib16"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/etc/profiles/per-user/iodza/bin/"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/iodza/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/iodza/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/iodza/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/"
+    searched_directories:
+      - "/etc/profiles/per-user/iodza/bin/gcc-ranlib-16.2"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/gcc-ranlib-16.2"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/gcc-ranlib-16.2"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/gcc-ranlib-16.2"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/gcc-ranlib-16.2"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/gcc-ranlib-16.2"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/gcc-ranlib-16.2"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/gcc-ranlib-16.2"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/gcc-ranlib-16.2"
+      - "/run/wrappers/bin/gcc-ranlib-16.2"
+      - "/home/iodza/.local/share/flatpak/exports/bin/gcc-ranlib-16.2"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib-16.2"
+      - "/home/iodza/.nix-profile/bin/gcc-ranlib-16.2"
+      - "/nix/profile/bin/gcc-ranlib-16.2"
+      - "/home/iodza/.local/state/nix/profile/bin/gcc-ranlib-16.2"
+      - "/nix/var/nix/profiles/default/bin/gcc-ranlib-16.2"
+      - "/run/current-system/sw/bin/gcc-ranlib-16.2"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/gcc-ranlib-16.2"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/gcc-ranlib-16.2"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/gcc-ranlib-16.2"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/gcc-ranlib-16.2"
+      - "/etc/profiles/per-user/iodza/bin/gcc-ranlib-16"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/gcc-ranlib-16"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/gcc-ranlib-16"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/gcc-ranlib-16"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/gcc-ranlib-16"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/gcc-ranlib-16"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/gcc-ranlib-16"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/gcc-ranlib-16"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/gcc-ranlib-16"
+      - "/run/wrappers/bin/gcc-ranlib-16"
+      - "/home/iodza/.local/share/flatpak/exports/bin/gcc-ranlib-16"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib-16"
+      - "/home/iodza/.nix-profile/bin/gcc-ranlib-16"
+      - "/nix/profile/bin/gcc-ranlib-16"
+      - "/home/iodza/.local/state/nix/profile/bin/gcc-ranlib-16"
+      - "/nix/var/nix/profiles/default/bin/gcc-ranlib-16"
+      - "/run/current-system/sw/bin/gcc-ranlib-16"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/gcc-ranlib-16"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/gcc-ranlib-16"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/gcc-ranlib-16"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/gcc-ranlib-16"
+      - "/etc/profiles/per-user/iodza/bin/gcc-ranlib16"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/gcc-ranlib16"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/gcc-ranlib16"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/gcc-ranlib16"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/gcc-ranlib16"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/gcc-ranlib16"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/gcc-ranlib16"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/gcc-ranlib16"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/gcc-ranlib16"
+      - "/run/wrappers/bin/gcc-ranlib16"
+      - "/home/iodza/.local/share/flatpak/exports/bin/gcc-ranlib16"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib16"
+      - "/home/iodza/.nix-profile/bin/gcc-ranlib16"
+      - "/nix/profile/bin/gcc-ranlib16"
+      - "/home/iodza/.local/state/nix/profile/bin/gcc-ranlib16"
+      - "/nix/var/nix/profiles/default/bin/gcc-ranlib16"
+      - "/run/current-system/sw/bin/gcc-ranlib16"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/gcc-ranlib16"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/gcc-ranlib16"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/gcc-ranlib16"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/gcc-ranlib16"
+      - "/etc/profiles/per-user/iodza/bin/gcc-ranlib"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/gcc-ranlib"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/gcc-ranlib"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/gcc-ranlib"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/gcc-ranlib"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/gcc-ranlib"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/gcc-ranlib"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/gcc-ranlib"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/gcc-ranlib"
+      - "/run/wrappers/bin/gcc-ranlib"
+      - "/home/iodza/.local/share/flatpak/exports/bin/gcc-ranlib"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib"
+      - "/home/iodza/.nix-profile/bin/gcc-ranlib"
+      - "/nix/profile/bin/gcc-ranlib"
+      - "/home/iodza/.local/state/nix/profile/bin/gcc-ranlib"
+      - "/nix/var/nix/profiles/default/bin/gcc-ranlib"
+      - "/run/current-system/sw/bin/gcc-ranlib"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/gcc-ranlib"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/gcc-ranlib"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/gcc-ranlib"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/gcc-ranlib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin"
+        - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin"
+        - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin"
+        - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin"
+        - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin"
+        - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin"
+        - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin"
+        - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin"
+        - "/run/wrappers/bin"
+        - "/home/iodza/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/iodza/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/iodza/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/iodza/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin"
+        - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin"
+        - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/"
+    found: "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin"
+        - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin"
+        - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin"
+        - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin"
+        - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin"
+        - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin"
+        - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin"
+        - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin"
+        - "/run/wrappers/bin"
+        - "/home/iodza/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/iodza/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/iodza/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/iodza/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin"
+        - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin"
+        - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /etc/profiles/per-user/iodza/bin/g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/iodza/Documents/LLM/420-5G4-ML/build/CMakeFiles/4.4.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-16.2"
+      - "gcc-ar-16"
+      - "gcc-ar16"
+      - "gcc-ar"
+    candidate_directories:
+      - "/etc/profiles/per-user/iodza/bin/"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/iodza/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/iodza/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/iodza/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/"
+    searched_directories:
+      - "/etc/profiles/per-user/iodza/bin/gcc-ar-16.2"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/gcc-ar-16.2"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/gcc-ar-16.2"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/gcc-ar-16.2"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/gcc-ar-16.2"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/gcc-ar-16.2"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/gcc-ar-16.2"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/gcc-ar-16.2"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/gcc-ar-16.2"
+      - "/run/wrappers/bin/gcc-ar-16.2"
+      - "/home/iodza/.local/share/flatpak/exports/bin/gcc-ar-16.2"
+      - "/var/lib/flatpak/exports/bin/gcc-ar-16.2"
+      - "/home/iodza/.nix-profile/bin/gcc-ar-16.2"
+      - "/nix/profile/bin/gcc-ar-16.2"
+      - "/home/iodza/.local/state/nix/profile/bin/gcc-ar-16.2"
+      - "/nix/var/nix/profiles/default/bin/gcc-ar-16.2"
+      - "/run/current-system/sw/bin/gcc-ar-16.2"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/gcc-ar-16.2"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/gcc-ar-16.2"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/gcc-ar-16.2"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/gcc-ar-16.2"
+      - "/etc/profiles/per-user/iodza/bin/gcc-ar-16"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/gcc-ar-16"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/gcc-ar-16"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/gcc-ar-16"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/gcc-ar-16"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/gcc-ar-16"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/gcc-ar-16"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/gcc-ar-16"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/gcc-ar-16"
+      - "/run/wrappers/bin/gcc-ar-16"
+      - "/home/iodza/.local/share/flatpak/exports/bin/gcc-ar-16"
+      - "/var/lib/flatpak/exports/bin/gcc-ar-16"
+      - "/home/iodza/.nix-profile/bin/gcc-ar-16"
+      - "/nix/profile/bin/gcc-ar-16"
+      - "/home/iodza/.local/state/nix/profile/bin/gcc-ar-16"
+      - "/nix/var/nix/profiles/default/bin/gcc-ar-16"
+      - "/run/current-system/sw/bin/gcc-ar-16"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/gcc-ar-16"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/gcc-ar-16"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/gcc-ar-16"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/gcc-ar-16"
+      - "/etc/profiles/per-user/iodza/bin/gcc-ar16"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/gcc-ar16"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/gcc-ar16"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/gcc-ar16"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/gcc-ar16"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/gcc-ar16"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/gcc-ar16"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/gcc-ar16"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/gcc-ar16"
+      - "/run/wrappers/bin/gcc-ar16"
+      - "/home/iodza/.local/share/flatpak/exports/bin/gcc-ar16"
+      - "/var/lib/flatpak/exports/bin/gcc-ar16"
+      - "/home/iodza/.nix-profile/bin/gcc-ar16"
+      - "/nix/profile/bin/gcc-ar16"
+      - "/home/iodza/.local/state/nix/profile/bin/gcc-ar16"
+      - "/nix/var/nix/profiles/default/bin/gcc-ar16"
+      - "/run/current-system/sw/bin/gcc-ar16"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/gcc-ar16"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/gcc-ar16"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/gcc-ar16"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/gcc-ar16"
+      - "/etc/profiles/per-user/iodza/bin/gcc-ar"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/gcc-ar"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/gcc-ar"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/gcc-ar"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/gcc-ar"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/gcc-ar"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/gcc-ar"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/gcc-ar"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/gcc-ar"
+      - "/run/wrappers/bin/gcc-ar"
+      - "/home/iodza/.local/share/flatpak/exports/bin/gcc-ar"
+      - "/var/lib/flatpak/exports/bin/gcc-ar"
+      - "/home/iodza/.nix-profile/bin/gcc-ar"
+      - "/nix/profile/bin/gcc-ar"
+      - "/home/iodza/.local/state/nix/profile/bin/gcc-ar"
+      - "/nix/var/nix/profiles/default/bin/gcc-ar"
+      - "/run/current-system/sw/bin/gcc-ar"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/gcc-ar"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/gcc-ar"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/gcc-ar"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/gcc-ar"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin"
+        - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin"
+        - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin"
+        - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin"
+        - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin"
+        - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin"
+        - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin"
+        - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin"
+        - "/run/wrappers/bin"
+        - "/home/iodza/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/iodza/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/iodza/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/iodza/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin"
+        - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin"
+        - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-16.2"
+      - "gcc-ranlib-16"
+      - "gcc-ranlib16"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/etc/profiles/per-user/iodza/bin/"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/"
+      - "/run/wrappers/bin/"
+      - "/home/iodza/.local/share/flatpak/exports/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/home/iodza/.nix-profile/bin/"
+      - "/nix/profile/bin/"
+      - "/home/iodza/.local/state/nix/profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/run/current-system/sw/bin/"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/"
+    searched_directories:
+      - "/etc/profiles/per-user/iodza/bin/gcc-ranlib-16.2"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/gcc-ranlib-16.2"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/gcc-ranlib-16.2"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/gcc-ranlib-16.2"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/gcc-ranlib-16.2"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/gcc-ranlib-16.2"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/gcc-ranlib-16.2"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/gcc-ranlib-16.2"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/gcc-ranlib-16.2"
+      - "/run/wrappers/bin/gcc-ranlib-16.2"
+      - "/home/iodza/.local/share/flatpak/exports/bin/gcc-ranlib-16.2"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib-16.2"
+      - "/home/iodza/.nix-profile/bin/gcc-ranlib-16.2"
+      - "/nix/profile/bin/gcc-ranlib-16.2"
+      - "/home/iodza/.local/state/nix/profile/bin/gcc-ranlib-16.2"
+      - "/nix/var/nix/profiles/default/bin/gcc-ranlib-16.2"
+      - "/run/current-system/sw/bin/gcc-ranlib-16.2"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/gcc-ranlib-16.2"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/gcc-ranlib-16.2"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/gcc-ranlib-16.2"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/gcc-ranlib-16.2"
+      - "/etc/profiles/per-user/iodza/bin/gcc-ranlib-16"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/gcc-ranlib-16"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/gcc-ranlib-16"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/gcc-ranlib-16"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/gcc-ranlib-16"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/gcc-ranlib-16"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/gcc-ranlib-16"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/gcc-ranlib-16"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/gcc-ranlib-16"
+      - "/run/wrappers/bin/gcc-ranlib-16"
+      - "/home/iodza/.local/share/flatpak/exports/bin/gcc-ranlib-16"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib-16"
+      - "/home/iodza/.nix-profile/bin/gcc-ranlib-16"
+      - "/nix/profile/bin/gcc-ranlib-16"
+      - "/home/iodza/.local/state/nix/profile/bin/gcc-ranlib-16"
+      - "/nix/var/nix/profiles/default/bin/gcc-ranlib-16"
+      - "/run/current-system/sw/bin/gcc-ranlib-16"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/gcc-ranlib-16"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/gcc-ranlib-16"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/gcc-ranlib-16"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/gcc-ranlib-16"
+      - "/etc/profiles/per-user/iodza/bin/gcc-ranlib16"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/gcc-ranlib16"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/gcc-ranlib16"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/gcc-ranlib16"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/gcc-ranlib16"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/gcc-ranlib16"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/gcc-ranlib16"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/gcc-ranlib16"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/gcc-ranlib16"
+      - "/run/wrappers/bin/gcc-ranlib16"
+      - "/home/iodza/.local/share/flatpak/exports/bin/gcc-ranlib16"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib16"
+      - "/home/iodza/.nix-profile/bin/gcc-ranlib16"
+      - "/nix/profile/bin/gcc-ranlib16"
+      - "/home/iodza/.local/state/nix/profile/bin/gcc-ranlib16"
+      - "/nix/var/nix/profiles/default/bin/gcc-ranlib16"
+      - "/run/current-system/sw/bin/gcc-ranlib16"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/gcc-ranlib16"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/gcc-ranlib16"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/gcc-ranlib16"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/gcc-ranlib16"
+      - "/etc/profiles/per-user/iodza/bin/gcc-ranlib"
+      - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin/gcc-ranlib"
+      - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin/gcc-ranlib"
+      - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin/gcc-ranlib"
+      - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/gcc-ranlib"
+      - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin/gcc-ranlib"
+      - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin/gcc-ranlib"
+      - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin/gcc-ranlib"
+      - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin/gcc-ranlib"
+      - "/run/wrappers/bin/gcc-ranlib"
+      - "/home/iodza/.local/share/flatpak/exports/bin/gcc-ranlib"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib"
+      - "/home/iodza/.nix-profile/bin/gcc-ranlib"
+      - "/nix/profile/bin/gcc-ranlib"
+      - "/home/iodza/.local/state/nix/profile/bin/gcc-ranlib"
+      - "/nix/var/nix/profiles/default/bin/gcc-ranlib"
+      - "/run/current-system/sw/bin/gcc-ranlib"
+      - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/gcc-ranlib"
+      - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin/gcc-ranlib"
+      - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin/gcc-ranlib"
+      - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin/gcc-ranlib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/nix/store/2vhzbwl700sah6wd97k56pndyi5qhq2h-glib-2.88.3-bin/bin"
+        - "/nix/store/63g104xwbzfpcq0h7c99w19m6j9ly3p1-gawk-5.4.1/bin"
+        - "/nix/store/3668q0d9zhc5n9l2pnyvpd44kz9bjsjm-gnugrep-3.12/bin"
+        - "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin"
+        - "/nix/store/2gfxiwls9hbgwdwcy43mprchwsq36mg6-coreutils-9.11/bin"
+        - "/nix/store/mdwxdimw26b72k7wign651n8clh4jzii-which-2.25/bin"
+        - "/nix/store/v9w4gj4rdwljz961allizcg6xzqvniri-getconf-glibc-2.44-25/bin"
+        - "/nix/store/zm1wa4schn96g7b1ijnal41ayly3xr4k-anyrun-provider-25.12.0/bin"
+        - "/run/wrappers/bin"
+        - "/home/iodza/.local/share/flatpak/exports/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/home/iodza/.nix-profile/bin"
+        - "/nix/profile/bin"
+        - "/home/iodza/.local/state/nix/profile/bin"
+        - "/etc/profiles/per-user/iodza/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/run/current-system/sw/bin"
+        - "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin"
+        - "/nix/store/m51axanl4rsfk06h8v59wzl426d25dy4-hyprland-qtutils-0.1.5/bin"
+        - "/nix/store/m7r1n1w94bfrc5h9171mlszvix1yvcis-pciutils-3.15.0/bin"
+        - "/nix/store/pl5v91y98d1s5b8qqybffjl7bfjwsa86-pkgconf-wrapper-2.5.1/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/iodza/Documents/LLM/420-5G4-ML/build/CMakeFiles/CMakeScratch/TryCompile-oy2KdN"
+      binary: "/home/iodza/Documents/LLM/420-5G4-ML/build/CMakeFiles/CMakeScratch/TryCompile-oy2KdN"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/home/iodza/Documents/LLM/420-5G4-ML/build/CMakeFiles/CMakeScratch/TryCompile-oy2KdN'
+        
+        Run Build Command(s): /etc/profiles/per-user/iodza/bin/ninja -v cmTC_47824
+        [1/2] /etc/profiles/per-user/iodza/bin/gcc   -v -o CMakeFiles/cmTC_47824.dir/CMakeCCompilerABI.c.o -c /etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/bin/gcc
+        Target: x86_64-unknown-linux-gnu
+        Configured with: ../gcc-16.2.0/configure --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-16.2.0 --with-gmp-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0-dev/include --with-gmp-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0/lib --with-mpfr-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2-dev/include --with-mpfr-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2/lib --with-mpc=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-libmpc-1.4.1 --with-native-system-header-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.44-25-dev/include --with-build-sysroot=/ --with-gxx-include-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-16.2.0/include/c++/16.2.0/ --program-prefix= --enable-lto --disable-libstdcxx-pch --without-included-gettext --with-system-zlib --enable-static --enable-languages=c,c++ --disable-multilib --enable-plugin --disable-libcc1 --with-isl=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-isl-0.20 --disable-bootstrap --enable-default-pie --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=x86_64-unknown-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 16.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-mtls-dialect=gnu2' '-v' '-o' 'CMakeFiles/cmTC_47824.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/' '-idirafter' '/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include' '-idirafter' '/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed' '-B' '/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47824.dir/'
+         /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/cc1 -quiet -v -idirafter /nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include -idirafter /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed /etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_47824.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mno-omit-leaf-frame-pointer -mtls-dialect=gnu2 -mtune=generic -march=x86-64 -version -fno-omit-frame-pointer -o /tmp/ccFnDz7b.s
+        GNU C23 (GCC) version 16.2.0 (x86_64-unknown-linux-gnu)
+        	compiled by GNU C version 16.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.20-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../../../x86_64-unknown-linux-gnu/include"
+        ignoring duplicate directory "/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include"
+        ignoring duplicate directory "/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include
+         /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include
+         /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed
+         /nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include
+        End of search list.
+        Compiler executable checksum: 1fd89e2bd2926507b16c9ea06ee930e8
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-mtls-dialect=gnu2' '-v' '-o' 'CMakeFiles/cmTC_47824.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/' '-idirafter' '/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include' '-idirafter' '/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed' '-B' '/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47824.dir/'
+         as -v --64 -o CMakeFiles/cmTC_47824.dir/CMakeCCompilerABI.c.o /tmp/ccFnDz7b.s
+        GNU assembler version 2.46 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.46
+        COMPILER_PATH=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/:/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/
+        LIBRARY_PATH=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/:/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../../
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-mtls-dialect=gnu2' '-v' '-o' 'CMakeFiles/cmTC_47824.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/' '-idirafter' '/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include' '-idirafter' '/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed' '-B' '/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47824.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /etc/profiles/per-user/iodza/bin/gcc  -v -Wl,-v CMakeFiles/cmTC_47824.dir/CMakeCCompilerABI.c.o -o cmTC_47824   && :
+        Using built-in specs.
+        COLLECT_GCC=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/bin/gcc
+        COLLECT_LTO_WRAPPER=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/lto-wrapper
+        Target: x86_64-unknown-linux-gnu
+        Configured with: ../gcc-16.2.0/configure --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-16.2.0 --with-gmp-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0-dev/include --with-gmp-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0/lib --with-mpfr-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2-dev/include --with-mpfr-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2/lib --with-mpc=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-libmpc-1.4.1 --with-native-system-header-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.44-25-dev/include --with-build-sysroot=/ --with-gxx-include-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-16.2.0/include/c++/16.2.0/ --program-prefix= --enable-lto --disable-libstdcxx-pch --without-included-gettext --with-system-zlib --enable-static --enable-languages=c,c++ --disable-multilib --enable-plugin --disable-libcc1 --with-isl=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-isl-0.20 --disable-bootstrap --enable-default-pie --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=x86_64-unknown-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 16.2.0 (GCC) 
+        COMPILER_PATH=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/:/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/
+        LIBRARY_PATH=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/:/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../../
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-mtls-dialect=gnu2' '-v' '-o' 'cmTC_47824' '-B' '/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/' '-idirafter' '/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include' '-idirafter' '/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed' '-B' '/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib' '-L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0' '-L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_47824.'
+         /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/collect2 -plugin /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccquQzl6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib64/ld-linux-x86-64.so.2 -pie -o cmTC_47824 /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/Scrt1.o /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crti.o /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtbeginS.o -L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0 -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0 -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../.. -dynamic-linker=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_47824.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtendS.o /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crtn.o
+        collect2 version 16.2.0
+        /nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/ld -plugin /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccquQzl6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib64/ld-linux-x86-64.so.2 -pie -o cmTC_47824 /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/Scrt1.o /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crti.o /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtbeginS.o -L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0 -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0 -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../.. -dynamic-linker=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_47824.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtendS.o /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crtn.o
+        GNU ld (GNU Binutils) 2.46
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-mtls-dialect=gnu2' '-v' '-o' 'cmTC_47824' '-B' '/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/' '-idirafter' '/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include' '-idirafter' '/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed' '-B' '/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib' '-L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0' '-L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_47824.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include]
+          add: [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include]
+          add: [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed]
+          add: [/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include]
+        end of search list found
+        collapse include dir [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include] ==> [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include]
+        collapse include dir [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include] ==> [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include]
+        collapse include dir [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed] ==> [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed]
+        collapse include dir [/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include] ==> [/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include]
+        implicit include dirs: [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include;/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include;/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed;/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: '/home/iodza/Documents/LLM/420-5G4-ML/build/CMakeFiles/CMakeScratch/TryCompile-oy2KdN']
+        ignore line: []
+        ignore line: [Run Build Command(s): /etc/profiles/per-user/iodza/bin/ninja -v cmTC_47824]
+        ignore line: [[1/2] /etc/profiles/per-user/iodza/bin/gcc   -v -o CMakeFiles/cmTC_47824.dir/CMakeCCompilerABI.c.o -c /etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/bin/gcc]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Configured with: ../gcc-16.2.0/configure --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-16.2.0 --with-gmp-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0-dev/include --with-gmp-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0/lib --with-mpfr-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2-dev/include --with-mpfr-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2/lib --with-mpc=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-libmpc-1.4.1 --with-native-system-header-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.44-25-dev/include --with-build-sysroot=/ --with-gxx-include-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-16.2.0/include/c++/16.2.0/ --program-prefix= --enable-lto --disable-libstdcxx-pch --without-included-gettext --with-system-zlib --enable-static --enable-languages=c c++ --disable-multilib --enable-plugin --disable-libcc1 --with-isl=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-isl-0.20 --disable-bootstrap --enable-default-pie --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 16.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-mtls-dialect=gnu2' '-v' '-o' 'CMakeFiles/cmTC_47824.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/' '-idirafter' '/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include' '-idirafter' '/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed' '-B' '/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47824.dir/']
+        ignore line: [ /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/cc1 -quiet -v -idirafter /nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include -idirafter /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed /etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_47824.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mno-omit-leaf-frame-pointer -mtls-dialect=gnu2 -mtune=generic -march=x86-64 -version -fno-omit-frame-pointer -o /tmp/ccFnDz7b.s]
+        ignore line: [GNU C23 (GCC) version 16.2.0 (x86_64-unknown-linux-gnu)]
+        ignore line: [	compiled by GNU C version 16.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.20-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../../../x86_64-unknown-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include]
+        ignore line: [ /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include]
+        ignore line: [ /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed]
+        ignore line: [ /nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 1fd89e2bd2926507b16c9ea06ee930e8]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-mtls-dialect=gnu2' '-v' '-o' 'CMakeFiles/cmTC_47824.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/' '-idirafter' '/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include' '-idirafter' '/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed' '-B' '/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47824.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_47824.dir/CMakeCCompilerABI.c.o /tmp/ccFnDz7b.s]
+        ignore line: [GNU assembler version 2.46 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.46]
+        ignore line: [COMPILER_PATH=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/:/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/:/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-mtls-dialect=gnu2' '-v' '-o' 'CMakeFiles/cmTC_47824.dir/CMakeCCompilerABI.c.o' '-c' '-B' '/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/' '-idirafter' '/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include' '-idirafter' '/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed' '-B' '/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_47824.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /etc/profiles/per-user/iodza/bin/gcc  -v -Wl -v CMakeFiles/cmTC_47824.dir/CMakeCCompilerABI.c.o -o cmTC_47824   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/bin/gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Configured with: ../gcc-16.2.0/configure --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-16.2.0 --with-gmp-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0-dev/include --with-gmp-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0/lib --with-mpfr-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2-dev/include --with-mpfr-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2/lib --with-mpc=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-libmpc-1.4.1 --with-native-system-header-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.44-25-dev/include --with-build-sysroot=/ --with-gxx-include-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-16.2.0/include/c++/16.2.0/ --program-prefix= --enable-lto --disable-libstdcxx-pch --without-included-gettext --with-system-zlib --enable-static --enable-languages=c c++ --disable-multilib --enable-plugin --disable-libcc1 --with-isl=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-isl-0.20 --disable-bootstrap --enable-default-pie --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 16.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/:/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/:/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-mtls-dialect=gnu2' '-v' '-o' 'cmTC_47824' '-B' '/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/' '-idirafter' '/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include' '-idirafter' '/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed' '-B' '/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib' '-L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0' '-L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_47824.']
+        link line: [ /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/collect2 -plugin /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccquQzl6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib64/ld-linux-x86-64.so.2 -pie -o cmTC_47824 /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/Scrt1.o /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crti.o /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtbeginS.o -L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0 -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0 -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../.. -dynamic-linker=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_47824.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtendS.o /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crtn.o]
+          arg [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccquQzl6.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s_asneeded] ==> ignore
+          arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s_asneeded] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_47824] ==> ignore
+          arg [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/Scrt1.o] ==> obj [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/Scrt1.o]
+          arg [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crti.o] ==> obj [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crti.o]
+          arg [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtbeginS.o] ==> obj [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtbeginS.o]
+          arg [-L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib] ==> dir [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib]
+          arg [-L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0] ==> dir [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0]
+          arg [-L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib] ==> dir [/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib]
+          arg [-L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib] ==> dir [/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib]
+          arg [-L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib] ==> dir [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib]
+          arg [-L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib] ==> dir [/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib]
+          arg [-L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0] ==> dir [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0]
+          arg [-L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../..] ==> dir [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../..]
+          arg [-dynamic-linker=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/ld-linux-x86-64.so.2] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_47824.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_s_asneeded] ==> lib [gcc_s_asneeded]
+          arg [-latomic_asneeded] ==> lib [atomic_asneeded]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_s_asneeded] ==> lib [gcc_s_asneeded]
+          arg [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtendS.o] ==> obj [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtendS.o]
+          arg [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crtn.o] ==> obj [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crtn.o]
+        ignore line: [collect2 version 16.2.0]
+        link line: [/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/ld -plugin /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccquQzl6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib64/ld-linux-x86-64.so.2 -pie -o cmTC_47824 /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/Scrt1.o /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crti.o /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtbeginS.o -L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0 -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0 -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../.. -dynamic-linker=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_47824.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtendS.o /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crtn.o] ==> linker [/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/ld]
+        link line: [/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/ld -plugin /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccquQzl6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib64/ld-linux-x86-64.so.2 -pie -o cmTC_47824 /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/Scrt1.o /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crti.o /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtbeginS.o -L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0 -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0 -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../.. -dynamic-linker=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_47824.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtendS.o /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crtn.o] ==> linker architecture flags [-m;elf]
+        ignore line: [/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/ld -plugin /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccquQzl6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib64/ld-linux-x86-64.so.2 -pie -o cmTC_47824 /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/Scrt1.o /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crti.o /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtbeginS.o -L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0 -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0 -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../.. -dynamic-linker=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_47824.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtendS.o /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crtn.o]
+        linker tool for 'C': /nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/ld -m;elf
+        collapse library dir [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib] ==> [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib]
+        collapse library dir [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0] ==> [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0]
+        collapse library dir [/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib] ==> [/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib]
+        collapse library dir [/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib] ==> [/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib]
+        collapse library dir [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib] ==> [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib]
+        collapse library dir [/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib] ==> [/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib]
+        collapse library dir [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0] ==> [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0]
+        collapse library dir [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../..] ==> [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib]
+        implicit libs: [gcc;gcc_s_asneeded;atomic_asneeded;c;gcc;gcc_s_asneeded]
+        implicit objs: [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/Scrt1.o;/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crti.o;/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtbeginS.o;/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtendS.o;/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crtn.o]
+        implicit dirs: [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib;/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0;/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib;/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.46
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/iodza/Documents/LLM/420-5G4-ML/build/CMakeFiles/CMakeScratch/TryCompile-lBdHUd"
+      binary: "/home/iodza/Documents/LLM/420-5G4-ML/build/CMakeFiles/CMakeScratch/TryCompile-lBdHUd"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/home/iodza/Documents/LLM/420-5G4-ML/build/CMakeFiles/CMakeScratch/TryCompile-lBdHUd'
+        
+        Run Build Command(s): /etc/profiles/per-user/iodza/bin/ninja -v cmTC_9a12c
+        [1/2] /etc/profiles/per-user/iodza/bin/g++   -v -o CMakeFiles/cmTC_9a12c.dir/CMakeCXXCompilerABI.cpp.o -c /etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/bin/g++
+        Target: x86_64-unknown-linux-gnu
+        Configured with: ../gcc-16.2.0/configure --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-16.2.0 --with-gmp-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0-dev/include --with-gmp-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0/lib --with-mpfr-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2-dev/include --with-mpfr-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2/lib --with-mpc=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-libmpc-1.4.1 --with-native-system-header-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.44-25-dev/include --with-build-sysroot=/ --with-gxx-include-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-16.2.0/include/c++/16.2.0/ --program-prefix= --enable-lto --disable-libstdcxx-pch --without-included-gettext --with-system-zlib --enable-static --enable-languages=c,c++ --disable-multilib --enable-plugin --disable-libcc1 --with-isl=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-isl-0.20 --disable-bootstrap --enable-default-pie --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=x86_64-unknown-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 16.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-mtls-dialect=gnu2' '-v' '-o' 'CMakeFiles/cmTC_9a12c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/' '-idirafter' '/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include' '-idirafter' '/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed' '-B' '/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9a12c.dir/'
+         /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/cc1plus -quiet -v -D_GNU_SOURCE -idirafter /nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include -idirafter /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed /etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9a12c.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mno-omit-leaf-frame-pointer -mtls-dialect=gnu2 -mtune=generic -march=x86-64 -version -fno-omit-frame-pointer -o /tmp/ccuf5pyU.s
+        GNU C++20 (GCC) version 16.2.0 (x86_64-unknown-linux-gnu)
+        	compiled by GNU C version 16.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.20-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../../../x86_64-unknown-linux-gnu/include"
+        ignoring duplicate directory "/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include"
+        ignoring duplicate directory "/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include/c++/16.2.0/
+         /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include/c++/16.2.0//x86_64-unknown-linux-gnu
+         /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include/c++/16.2.0//backward
+         /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include
+         /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include
+         /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed
+         /nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include
+        End of search list.
+        Compiler executable checksum: b20406bc474bf91d3cc103e7fb996b37
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-mtls-dialect=gnu2' '-v' '-o' 'CMakeFiles/cmTC_9a12c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/' '-idirafter' '/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include' '-idirafter' '/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed' '-B' '/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9a12c.dir/'
+         as -v --64 -o CMakeFiles/cmTC_9a12c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccuf5pyU.s
+        GNU assembler version 2.46 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.46
+        COMPILER_PATH=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/:/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/
+        LIBRARY_PATH=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/:/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../../
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-mtls-dialect=gnu2' '-v' '-o' 'CMakeFiles/cmTC_9a12c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/' '-idirafter' '/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include' '-idirafter' '/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed' '-B' '/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9a12c.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /etc/profiles/per-user/iodza/bin/g++  -v -Wl,-v CMakeFiles/cmTC_9a12c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9a12c   && :
+        Using built-in specs.
+        COLLECT_GCC=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/bin/g++
+        COLLECT_LTO_WRAPPER=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/lto-wrapper
+        Target: x86_64-unknown-linux-gnu
+        Configured with: ../gcc-16.2.0/configure --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-16.2.0 --with-gmp-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0-dev/include --with-gmp-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0/lib --with-mpfr-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2-dev/include --with-mpfr-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2/lib --with-mpc=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-libmpc-1.4.1 --with-native-system-header-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.44-25-dev/include --with-build-sysroot=/ --with-gxx-include-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-16.2.0/include/c++/16.2.0/ --program-prefix= --enable-lto --disable-libstdcxx-pch --without-included-gettext --with-system-zlib --enable-static --enable-languages=c,c++ --disable-multilib --enable-plugin --disable-libcc1 --with-isl=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-isl-0.20 --disable-bootstrap --enable-default-pie --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=x86_64-unknown-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 16.2.0 (GCC) 
+        COMPILER_PATH=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/:/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/
+        LIBRARY_PATH=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/:/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../../
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-mtls-dialect=gnu2' '-v' '-o' 'cmTC_9a12c' '-B' '/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/' '-idirafter' '/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include' '-idirafter' '/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed' '-B' '/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib' '-L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0' '-L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9a12c.'
+         /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/collect2 -plugin /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxsmNzj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9a12c /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/Scrt1.o /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crti.o /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtbeginS.o -L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0 -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0 -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../.. -dynamic-linker=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_9a12c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtendS.o /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crtn.o
+        collect2 version 16.2.0
+        /nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/ld -plugin /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxsmNzj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9a12c /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/Scrt1.o /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crti.o /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtbeginS.o -L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0 -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0 -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../.. -dynamic-linker=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_9a12c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtendS.o /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crtn.o
+        GNU ld (GNU Binutils) 2.46
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-mtls-dialect=gnu2' '-v' '-o' 'cmTC_9a12c' '-B' '/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/' '-idirafter' '/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include' '-idirafter' '/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed' '-B' '/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib' '-L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0' '-L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9a12c.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include/c++/16.2.0/]
+          add: [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include/c++/16.2.0//x86_64-unknown-linux-gnu]
+          add: [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include/c++/16.2.0//backward]
+          add: [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include]
+          add: [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include]
+          add: [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed]
+          add: [/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include]
+        end of search list found
+        collapse include dir [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include/c++/16.2.0/] ==> [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include/c++/16.2.0]
+        collapse include dir [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include/c++/16.2.0//x86_64-unknown-linux-gnu] ==> [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include/c++/16.2.0/x86_64-unknown-linux-gnu]
+        collapse include dir [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include/c++/16.2.0//backward] ==> [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include/c++/16.2.0/backward]
+        collapse include dir [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include] ==> [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include]
+        collapse include dir [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include] ==> [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include]
+        collapse include dir [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed] ==> [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed]
+        collapse include dir [/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include] ==> [/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include]
+        implicit include dirs: [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include/c++/16.2.0;/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include/c++/16.2.0/x86_64-unknown-linux-gnu;/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include/c++/16.2.0/backward;/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include;/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include;/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed;/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: '/home/iodza/Documents/LLM/420-5G4-ML/build/CMakeFiles/CMakeScratch/TryCompile-lBdHUd']
+        ignore line: []
+        ignore line: [Run Build Command(s): /etc/profiles/per-user/iodza/bin/ninja -v cmTC_9a12c]
+        ignore line: [[1/2] /etc/profiles/per-user/iodza/bin/g++   -v -o CMakeFiles/cmTC_9a12c.dir/CMakeCXXCompilerABI.cpp.o -c /etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/bin/g++]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Configured with: ../gcc-16.2.0/configure --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-16.2.0 --with-gmp-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0-dev/include --with-gmp-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0/lib --with-mpfr-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2-dev/include --with-mpfr-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2/lib --with-mpc=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-libmpc-1.4.1 --with-native-system-header-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.44-25-dev/include --with-build-sysroot=/ --with-gxx-include-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-16.2.0/include/c++/16.2.0/ --program-prefix= --enable-lto --disable-libstdcxx-pch --without-included-gettext --with-system-zlib --enable-static --enable-languages=c c++ --disable-multilib --enable-plugin --disable-libcc1 --with-isl=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-isl-0.20 --disable-bootstrap --enable-default-pie --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 16.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-mtls-dialect=gnu2' '-v' '-o' 'CMakeFiles/cmTC_9a12c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/' '-idirafter' '/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include' '-idirafter' '/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed' '-B' '/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9a12c.dir/']
+        ignore line: [ /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/cc1plus -quiet -v -D_GNU_SOURCE -idirafter /nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include -idirafter /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed /etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9a12c.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mno-omit-leaf-frame-pointer -mtls-dialect=gnu2 -mtune=generic -march=x86-64 -version -fno-omit-frame-pointer -o /tmp/ccuf5pyU.s]
+        ignore line: [GNU C++20 (GCC) version 16.2.0 (x86_64-unknown-linux-gnu)]
+        ignore line: [	compiled by GNU C version 16.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.20-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../../../x86_64-unknown-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include/c++/16.2.0/]
+        ignore line: [ /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include/c++/16.2.0//x86_64-unknown-linux-gnu]
+        ignore line: [ /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include/c++/16.2.0//backward]
+        ignore line: [ /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include]
+        ignore line: [ /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/include]
+        ignore line: [ /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed]
+        ignore line: [ /nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: b20406bc474bf91d3cc103e7fb996b37]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-mtls-dialect=gnu2' '-v' '-o' 'CMakeFiles/cmTC_9a12c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/' '-idirafter' '/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include' '-idirafter' '/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed' '-B' '/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9a12c.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_9a12c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccuf5pyU.s]
+        ignore line: [GNU assembler version 2.46 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.46]
+        ignore line: [COMPILER_PATH=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/:/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/:/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-mtls-dialect=gnu2' '-v' '-o' 'CMakeFiles/cmTC_9a12c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-B' '/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/' '-idirafter' '/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include' '-idirafter' '/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed' '-B' '/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9a12c.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /etc/profiles/per-user/iodza/bin/g++  -v -Wl -v CMakeFiles/cmTC_9a12c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9a12c   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/bin/g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/lto-wrapper]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Configured with: ../gcc-16.2.0/configure --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-16.2.0 --with-gmp-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0-dev/include --with-gmp-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-6.3.0/lib --with-mpfr-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2-dev/include --with-mpfr-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2/lib --with-mpc=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-libmpc-1.4.1 --with-native-system-header-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-glibc-2.44-25-dev/include --with-build-sysroot=/ --with-gxx-include-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gcc-16.2.0/include/c++/16.2.0/ --program-prefix= --enable-lto --disable-libstdcxx-pch --without-included-gettext --with-system-zlib --enable-static --enable-languages=c c++ --disable-multilib --enable-plugin --disable-libcc1 --with-isl=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-isl-0.20 --disable-bootstrap --enable-default-pie --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 16.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/:/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/:/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/:/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-mtls-dialect=gnu2' '-v' '-o' 'cmTC_9a12c' '-B' '/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/' '-idirafter' '/nix/store/m38wglsqnh1mrmj2cmqa3pjb6w4yjxdi-glibc-2.44-25-dev/include' '-idirafter' '/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/include-fixed' '-B' '/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib' '-L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0' '-L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9a12c.']
+        link line: [ /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/collect2 -plugin /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxsmNzj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9a12c /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/Scrt1.o /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crti.o /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtbeginS.o -L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0 -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0 -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../.. -dynamic-linker=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_9a12c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtendS.o /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crtn.o]
+          arg [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccxsmNzj.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_9a12c] ==> ignore
+          arg [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/Scrt1.o] ==> obj [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/Scrt1.o]
+          arg [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crti.o] ==> obj [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crti.o]
+          arg [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtbeginS.o] ==> obj [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtbeginS.o]
+          arg [-L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib] ==> dir [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib]
+          arg [-L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0] ==> dir [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0]
+          arg [-L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib] ==> dir [/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib]
+          arg [-L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib] ==> dir [/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib]
+          arg [-L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib] ==> dir [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib]
+          arg [-L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib] ==> dir [/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib]
+          arg [-L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0] ==> dir [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0]
+          arg [-L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../..] ==> dir [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../..]
+          arg [-dynamic-linker=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/ld-linux-x86-64.so.2] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_9a12c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-latomic_asneeded] ==> lib [atomic_asneeded]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtendS.o] ==> obj [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtendS.o]
+          arg [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crtn.o] ==> obj [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crtn.o]
+        ignore line: [collect2 version 16.2.0]
+        link line: [/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/ld -plugin /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxsmNzj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9a12c /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/Scrt1.o /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crti.o /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtbeginS.o -L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0 -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0 -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../.. -dynamic-linker=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_9a12c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtendS.o /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crtn.o] ==> linker [/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/ld]
+        link line: [/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/ld -plugin /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxsmNzj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9a12c /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/Scrt1.o /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crti.o /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtbeginS.o -L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0 -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0 -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../.. -dynamic-linker=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_9a12c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtendS.o /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crtn.o] ==> linker architecture flags [-m;elf]
+        ignore line: [/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/ld -plugin /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/liblto_plugin.so -plugin-opt=/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/libexec/gcc/x86_64-unknown-linux-gnu/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxsmNzj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9a12c /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/Scrt1.o /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crti.o /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtbeginS.o -L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0 -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib -L/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0 -L/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../.. -dynamic-linker=/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_9a12c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtendS.o /nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crtn.o]
+        linker tool for 'CXX': /nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/ld -m;elf
+        collapse library dir [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib] ==> [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib]
+        collapse library dir [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0] ==> [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0]
+        collapse library dir [/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib] ==> [/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib]
+        collapse library dir [/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib] ==> [/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib]
+        collapse library dir [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib] ==> [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib]
+        collapse library dir [/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib] ==> [/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib]
+        collapse library dir [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0] ==> [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0]
+        collapse library dir [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/../../..] ==> [/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;atomic_asneeded;c;gcc_s;gcc]
+        implicit objs: [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/Scrt1.o;/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crti.o;/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtbeginS.o;/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0/crtendS.o;/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/crtn.o]
+        implicit dirs: [/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib;/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib/gcc/x86_64-unknown-linux-gnu/16.2.0;/nix/store/j7qx4s4mr17j1wqgvqdzj33lmrnzb387-gcc-16.2.0-lib/lib;/nix/store/5q6bdxkp7lc70gn9mnf4yiybrx8ry5xq-gcc-16.2.0/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "/etc/profiles/per-user/iodza/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/nix/store/fy8mxgdjvjvmagv2igmj428a9j17hpcf-binutils-wrapper-2.46/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.46
+...
