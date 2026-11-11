@@ -1,24 +1,45 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/cpp
+// For format details, see https://aka.ms/devcontainer.json.
+// Setup for this repo: C++ toolchain + the DeepSeek Harness runtime.
 {
-	"name": "C++",
+	"name": "420-5G4-ML",
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
-	
-// Monter le socket X11 hôte dans le conteneur
-  "mounts": [
-    "source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind"
-  ],
-  
-  // Transmettre la variable d'affichage
-  "containerEnv": {
-    "DISPLAY": "${localEnv:DISPLAY}"
-  },
-  
-  // Donner l'accès au serveur X11 (si nécessaire sur certains systèmes)
-  "runArgs": [
-    "--net=host"
-  ],
 
+	// Open the whole project (analyse_image/, apprentissage/, agent/), not just agent/.
+	"workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/420-5G4-ML,type=bind",
+	"workspaceFolder": "/workspaces/420-5G4-ML",
+	"remoteUser": "vscode",
+
+	"mounts": [
+		// X11 socket for tkinter/matplotlib windows. Does not require --net=host.
+		"source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind",
+		// The harness source and its state (~/.dsh holds credentials, profiles, sessions).
+		"source=${localEnv:HOME}/deepseek-harness,target=/opt/deepseek-harness,type=bind",
+		"source=${localEnv:HOME}/.dsh,target=/home/vscode/.dsh,type=bind"
+	],
+
+	"containerEnv": {
+		"DISPLAY": "${localEnv:DISPLAY}"
+	},
+
+	// --net=host was removed on purpose: it exposed every localhost service of
+	// the host (VS Code servers, postgres, the host DSH on :3080) to this
+	// container. The X11 socket mount above still works without it.
+	"runArgs": [
+		"--init",
+		"--security-opt=no-new-privileges"
+	],
+
+	// 3081, not 3080: the host already runs a DSH web there.
+	"forwardPorts": [3081],
+	"portsAttributes": {
+		"3081": {
+			"label": "DSH Web UI",
+			"onAutoForward": "notify"
+		}
+	},
+
+	"postCreateCommand": "node -v && pnpm -v && chmod +x .devcontainer/dsh.sh",
+	"postStartCommand": "echo 'Start DSH: .devcontainer/dsh.sh   (or: DSH_PORT=3081 .devcontainer/dsh.sh)'"
 }
